@@ -1,5 +1,4 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import { getMergeSortAnimations, getBubbleSortAnimations, getQuickSortAnimations, getInsertionSortAnimations, getSelectionSortAnimations } from '../SortingAlgorithms/SortingAlgorithms.js';
 import './Sorter.css';
 
