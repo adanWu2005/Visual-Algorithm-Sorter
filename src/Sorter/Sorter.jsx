@@ -13,7 +13,6 @@ function randomIntFromInterval(min, max) {
 }
 
 export default function SortingVisualizer() {
-  const navigate = useNavigate();
   const [array, setArray] = React.useState([]);
   const [isSorting, setIsSorting] = React.useState(false);
   const [sizeValue, setSizeValue] = React.useState(200); // Default to maximum size (100 bars)
